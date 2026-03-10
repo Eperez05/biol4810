@@ -1,0 +1,32 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "comments": [
+        {
+            "color": "none",
+            "data": {
+                "size": 2,
+                "text": "# Day 12 \u2014 Galaxy QC \u2192 Trim \u2192 Assembly \u2192 QUAST <br><br>## Sample\n<br>- sampleID: sequencingreads<br>- raw data:&nbsp;WT_R1.fastq.gz and WT_R2.fastq.gz<br><br>&nbsp;## Tools (Galaxy / usegalaxy.org)<br>&nbsp;- FastQC: (Galaxy Version 0.74+galaxy1)<br>&nbsp;- fastp: (Galaxy Version 1.1.0+galaxy0)<br>&nbsp;- SPAdes: (Galaxy Version 4.2.0+galaxy0)<br>&nbsp;- QUAST: (Galaxy Version 5.3.0+galaxy1)<br><br>&nbsp;## Steps\n<br>1. FastQC on raw reads \u2192 saved report as: forward_fastqc.html<br>2. fastp trimming (default settings) \u2192 saved report as: fastp_report.html<br>3. FastQC on trimmed reads \u2192 saved report as: forwardtrimmed_fastqc.html<br>4. SPAdes assembly on trimmed reads \u2192 saved contigs as: assembly_contigs.fasta<br>5. QUAST evaluation on contigs \u2192 saved report as: Quast_assembly_contigs.pdf<br><br><br>&nbsp;## Notes / interpretation\n<br>- Trimmed reads with low quality, reads with too many N, reads too short, and reads with adapter dimer.\n<br>-&nbsp;The read lengths changes a little bit. The reads only dropped from 3.125026 M to 3.088820 M. The bases dropped from 463.553676 M to 458.080025 M.<br>- N50: 193475<br>- L50: 8<br>- Contigs: 79<br><br>"
+            },
+            "id": 0,
+            "position": [
+                -597.6,
+                -727.1
+            ],
+            "size": [
+                1364,
+                937
+            ],
+            "type": "text"
+        }
+    ],
+    "format-version": "0.1",
+    "name": "workflow_day12.md",
+    "report": {
+        "markdown": "\n# Workflow Execution Report\n\n## Workflow Inputs\n```galaxy\ninvocation_inputs()\n```\n\n## Workflow Outputs\n```galaxy\ninvocation_outputs()\n```\n\n## Workflow\n```galaxy\nworkflow_display()\n```\n"
+    },
+    "steps": {},
+    "tags": [],
+    "uuid": "a1a8d7f9-14b8-42c2-bb36-e05beed3f45a",
+    "version": 0
+}
