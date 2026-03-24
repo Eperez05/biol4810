@@ -1,0 +1,4 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+Prokka_on_dataset_41__gbk	LOECGNNE_12	77712	78350	+	flgH	46-684/684	.==============	0/0	93.42	80.44	vfdb	YP_001006758	(flgH) flagellar L-ring protein precursor FlgH [Flagella (VF0394)] [Yersinia enterocolitica subsp. enterocolitica 8081]	
+Prokka_on_dataset_41__gbk	LOECGNNE_12	86769	87773	-	fliM	1-1005/1005	========/======	2/2	99.90	82.01	vfdb	YP_001006748	(fliM) flagellar motor switch protein FliM [Flagella (VF0394)] [Yersinia enterocolitica subsp. enterocolitica 8081]	
+Prokka_on_dataset_41__gbk	LOECGNNE_12	92182	93174	-	fliG	1-993/993	===============	0/0	100.00	82.68	vfdb	YP_001006742	(fliG) flagellar motor switch protein G [Flagella (VF0394)] [Yersinia enterocolitica subsp. enterocolitica 8081]	
